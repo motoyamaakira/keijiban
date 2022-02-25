@@ -1,0 +1,117 @@
+.logo img {
+  width: 250px;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+header ul {
+  list-style-type: none;
+  line-height: 60px;
+}
+
+header ul li {
+  float: left;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: white;
+}
+
+.left {
+  float:left;
+  width: 70%;
+  margin-right: 50px;
+}
+
+h1 {
+  border-left: 3px solid black;
+  border-bottom: 3px solid gray;
+}
+
+form {
+  margin-bottom: 30px;
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  width: 100%;
+}
+
+form div {
+  padding: 15px;
+}
+
+.nyuuryoku h3 {
+  margin-top: 0px;
+  border-left: 3px solid red;
+}
+
+.text, textarea {
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+  color: #999;
+  background: #fff;
+}
+
+.submit {
+  border: 1px solid lightgray;
+  padding: 4px 10px;
+  color: white;
+  background-color: #bfbfbf;
+  border-radius: 5px;
+  border-bottom: solid 2px gray;
+}
+
+.kiji {
+  margin-bottom: 30px;
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  width: 100%;
+}
+
+.kiji h3 {
+  border-bottom: 1px solid gray;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 12px;
+
+}
+
+.contents {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding-left: 12px;
+}
+
+.handlename {
+  padding-left: 0px;
+}
+
+.right {
+  float: left;
+  width: 25%;
+}
+
+.right h3 {
+  border-bottom: 1px dotted gray;
+}
+
+.right ul {
+  list-style-type: none;
+  margin-left: -35px;
+  margin-top: -10px;
+  line-height: 30px;
+}
+
+footer {
+  clear:left;
+  margin-top: 60px;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+}
