@@ -65,7 +65,7 @@
           echo "<h3>".$row['title']."</h3>";
           echo "<div class='contents'>";
           echo $row['comments'];
-          echo "<div class='handlename'>posted by".$row['handlename']."</div>";
+          echo "<div class='handlename'>posted by ".$row['handlename']."</div>";
           echo "</div>";
           echo "</div>";
         }
