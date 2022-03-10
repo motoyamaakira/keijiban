@@ -15,6 +15,6 @@ $stmt->bindValue(3,$_POST['comments']);
 $stmt->execute();
 $pdo = NULL;
 
-header("Location:http://localhost/4each_keijiban/index.php");
+header("Location:http://localhost/keijiban/index.php");
 
 ?>
