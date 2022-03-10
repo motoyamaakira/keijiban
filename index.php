@@ -1,11 +1,3 @@
-        <?php
-
-        mb_internal_encoding("utf8");
-        $pdo = new PDO("mysql:dbname=lesson01;host=localhost;","root","root");
-        $stmt = $pdo->query("select * from 4each_keijiban");
-
-        
-        ?>
 <!DOCTYPE html>
 <html lang="ja">
   <head>
@@ -15,6 +7,18 @@
   </head>
 
   <body>
+  <?php
+
+    mb_internal_encoding("utf8");
+
+    require "DB.php";
+    $dbconnect = new DB();
+    $pdo = $dbconnect->connect();
+    $stmt = $pdo->prepare($dbconnect->select());
+
+    $stmt->execute();
+
+  ?>
     <div class="logo"><img src="4eachblog_logo.jpg"></div>
     <header>
       <ul>
